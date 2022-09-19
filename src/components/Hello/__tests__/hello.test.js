@@ -4,8 +4,8 @@ import { render, fireEvent } from '@testing-library/react';
 
 test('should be render Hello text', () => {
    const { getByText, debug } = render(<Hello />);
-   // Tere are three groups of text
-   // 1. getBy    => if the object you want to optain is null ,it would throw an error
+   // There are three groups of text
+   // 1. getBy    => if the object you want to obtain is null ,it would throw an error
    // 2. queryBy  => it is used to check if some vale is null
    // 3. findBy   => it is used to get elements asynchronous
    debug();
